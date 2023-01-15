@@ -414,9 +414,7 @@ Media Queries
     .container{
         width: 100%;
     }
-    .experience .experience-item{
-        display: flex;
-    }
+    
 
     
 }

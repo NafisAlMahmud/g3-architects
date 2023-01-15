@@ -6,6 +6,7 @@
     list-style: none;
     font-family: 'Work Sans', sans-serif;
     text-decoration: none;
+    max-width: 100%;
 
 }
 
@@ -177,6 +178,7 @@ nav ul li {
     font-size: 16px;
     color: #727272;
     padding-top: 15px;
+    width: 586px;
 }
 
 .experience .experience-item .experience-text .exp-futures .exp-future {
@@ -244,6 +246,50 @@ nav ul li {
     font-weight: 500;
     font-size: 25px;
 }
+
+
+/* -----service css--------- */
+.service{
+    margin-top: 100px;
+}
+.service .service-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 54px;
+    text-align: center;
+}
+.service-items{
+    display: flex;
+    justify-content: space-around;
+}
+.service .service-text p{
+    width: 600px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 100px;
+    padding: 5px 0px;
+}
+
+.service .service-img img{
+    width: 600px;
+}
+.service .service-text .hero-btn{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 32px;
+    margin-top: 40px;
+}
+
+
+
+
 
 /*------------ facts style-------- */
 .facts {
@@ -355,4 +401,22 @@ nav ul li {
     font-weight: 400;
 font-size: 20px;
 color: #424242;
+}
+
+
+
+/* -------------------------------
+Media Queries
+--------------------------------- */
+
+
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    .experience .experience-item{
+        display: flex;
+    }
+
+    
 }

@@ -1,0 +1,358 @@
+/*---- common css --------*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+
+}
+
+.container {
+    margin: 0px 120px;
+}
+
+/*-------------------
+ nav style 
+ --------------------*/
+header {
+    width: 100%;
+    background: rgba(255, 143, 14, 0.267);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav .nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 50px;
+
+}
+
+nav ul {
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 63px;
+
+}
+
+nav ul li {
+    padding-left: 48px;
+    color: #424242;
+
+}
+
+
+/*-----hero style------ */
+.hero .hero-text {
+    text-align: center;
+    padding: 0px 230px;
+    margin-top: 50px;
+
+
+}
+
+.hero .hero-text .hero-title {
+
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 32px;
+}
+
+.hero .hero-text .hero-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 32px;
+}
+
+.hero .hero-text .hero-btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.hero .hero-img img {
+    width: 1200px;
+    padding-bottom: 74px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* -----future style---------- */
+.future {
+    margin-top: 85px;
+}
+
+.future .future-item {
+    display: flex;
+}
+
+.future .future-item .future-img {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 24px;
+}
+
+.future .future-item .future-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 24px;
+}
+
+.future .future-text {
+    padding-left: 76px;
+    width: 537px;
+    padding-top: 280px;
+
+}
+
+.future .future-item .future-des {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 32px;
+}
+
+.future .future-item .future-title .silver {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.future .future-item .future-title .org {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.future .future-item .explore-more-btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+/* ----experience  style------ */
+
+.experience {
+    margin-top: 100px;
+
+}
+
+.experience .experience-item {
+    display: flex;
+}
+
+.experience .experience-item .experience-text .experience-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.experience .experience-item .experience-text .experience-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-top: 15px;
+}
+
+.experience .experience-item .experience-text .exp-futures .exp-future {
+    margin: 20px 0px;
+    width: 586px;
+    height: 140px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 30px 30px;
+
+}
+
+.experience .experience-item .experience-text .exp-futures .exp-future .exp-future-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.experience .experience-item .experience-text .exp-futures .exp-future .exp-future-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+.experience .experience-item .experience-img {
+    padding-left: 80px;
+    position: relative;
+
+}
+
+.experience .experience-item .experience-img .ten-years {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #ffff;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.experience .experience-item .experience-img .ten-years:hover {
+    width: 342px;
+    height: 200px;
+    background: #ff2323;
+    border-radius: 8px;
+    transition: .2s all linear;
+    transition: 0.4s;
+    transition-delay: 0.1s;
+    box-shadow: 0px 0px 40px rgba(97, 44, 0, 0.705);
+
+}
+
+.experience .experience-item .experience-img .ten-years .years {
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.experience .experience-item .experience-img .ten-years p {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/*------------ facts style-------- */
+.facts {
+    margin-top: 100px;
+}
+
+.facts-item .facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 24px;
+}
+
+.facts-item .facts-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 100px;
+}
+
+.facts-item .facts-boxs {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.facts-item .facts-boxs .box {
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    position: relative;
+
+
+}
+
+.facts-item .facts-boxs .box:hover {
+    width: 240px;
+    height: 240px;
+    box-shadow: 0px 0px 40px rgba(97, 44, 0, 0.377);
+    border-radius: 50%;
+    transition: .2s all linear;
+    transition: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.facts-item .facts-boxs .box .box-item {
+    position: absolute;
+    top: 25%;
+    right: 16%;
+    text-align: center;
+}
+
+.facts-item .facts-boxs .box .box-item .number {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.facts-item .facts-boxs .box .box-item .box-des {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* sponsores style start */
+
+.sponsors {
+    margin-top: 180px;
+}
+
+.sponsors .sponsors-text {
+    text-align: center;
+
+}
+
+.sponsors .sponsors-text .sponsors-title {
+    font-size: 45px;
+    line-height: 53px;
+    padding-bottom: 24px;
+
+}
+
+.sponsors .sponsors-text .sponsors-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 50px;
+}
+
+.sponsors-items {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* ---footer style------ */
+.footer {
+    margin-top: 130px;
+
+}
+
+.footer-text {
+    text-align: center;
+    padding: 40px 400px;
+    background: #FFF4E7;
+    margin-bottom: 200px;
+}
+.footer-text p{
+    font-weight: 400;
+font-size: 20px;
+color: #424242;
+}
